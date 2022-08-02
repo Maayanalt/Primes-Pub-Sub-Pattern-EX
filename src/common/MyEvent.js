@@ -3,14 +3,14 @@ class MyEvent {
     this.events = {};
   }
 
-  on(type, listener, ...args) {
+  on(type, listener) {
     if (!this.events[type]) this.events[type] = [];
-    this.events[type].push(listener.bind(this, ...args));
+    this.events[type].push(listener);
   }
 
-  emit(type) {
+  emit(type, ...args) {
     for (const listener of this.events[type]) {
-      listener();
+      listener(args);
     }
   }
 }
