@@ -17,5 +17,8 @@
   "bugs": {
     "url": "https://github.com/Maayanalt/primesPubSub/issues"
   },
-  "homepage": "https://github.com/Maayanalt/primesPubSub#readme"
+  "homepage": "https://github.com/Maayanalt/primesPubSub#readme",
+  "dependencies": {
+    "chalk": "^5.0.1"
+  }
 }
