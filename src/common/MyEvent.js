@@ -10,7 +10,7 @@ class MyEvent {
 
   emit(type, ...args) {
     for (const listener of this.events[type]) {
-      listener(args);
+      listener(...args);
     }
   }
 }
