@@ -9,7 +9,7 @@ function run() {
   prime.on("prime", (num) => mersenne(num));
   prime.on("prime", (num) => prime1(num));
   prime.on("prime", (num) => prime4Digits(num));
-  prime.start(1500);
+  prime.start(1100);
 }
 
 run();
