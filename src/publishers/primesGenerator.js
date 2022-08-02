@@ -1,4 +1,4 @@
-import MyEvent from "../common/MyEvent";
+import MyEvent from "../common/MyEvent.js";
 
 class PrimesGenerator extends MyEvent {
   constructor() {
@@ -22,3 +22,5 @@ class PrimesGenerator extends MyEvent {
     }
   }
 }
+
+export default PrimesGenerator;
