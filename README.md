@@ -1,5 +1,5 @@
 # Primes - Publisher Subscriber Exercise
-> This exercise follows the publisher-subscriber design pattern in nodeJS.
+> This exercise follows the publisher-subscriber design pattern in NodeJS.
 
 *The Publish/Subscribe pattern, also referred to as pub/sub, is an architectural design pattern that provides communication between publishers and subscribers.*
 <br/>
